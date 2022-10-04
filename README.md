@@ -1,6 +1,7 @@
 # Batalha Naval
 Um jogo de Batalha Naval construindo em HTML, CSS, E JAVASCRIPT, com auxílio do livro Use A Cabeça JavaScript, adicionando melhorias na parte visual.
 
+<a href="https://jromarioss.github.io/batalha_naval/" target="_blan">Link para jogar o jogo</a>
 
 ## Como baixar o jogo
 1 - Clique no icone em verde CODE
