@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: auto;
+  background-image: url("../public/radar01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#messageArea {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  padding: 10px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.12em;
+}
+
+#board table {
+  position: absolute;
+  left: 155px;
+  top: 75px;
+  border-spacing: 0px;
+}
+
+#board table td {
+  width: 94px;
+  height: 94px;
+  border: 3px solid white;
+}
+
+#board form {
+  position: absolute;
+  bottom: -55px;
+  right: 152px;
+  padding: 10px;
+  background-color: rgb(80, 175, 19);
+}
+
+#board form input {
+  background-color: rgb(152, 207, 113);
+  letter-spacing: 0.15em;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.letter{
+  position: absolute;
+  top: 95px;
+  left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.letterA,
+.letterB,
+.letterC,
+.letterD,
+.letterE,
+.letterF{
+  margin-bottom: 50px;
+}
+
+.number {
+  display: inline;
+  position: absolute;
+  bottom: 15px;
+  left: 190px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.number span {
+  margin-right: 65px;
+}
+
+.hit {
+  background: url("../public/ship02.png") no-repeat center;
+}
+
+.miss {
+  background: url("../public/miss01.png") no-repeat center;
+}
+
+.btn {
+  margin: 50px auto;
+}
+
+.btn a {
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.btn a:hover {
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
+.exit {
+  position: absolute;
+  right: 20px;
+}
+
+.footer {
+  margin-top: 70px;
+}
